@@ -19,7 +19,7 @@ html body{
     padding-left: 38%;
     padding-top: 200px;
     z-index: 20;
-    font-family: 'Meiryo UI';
+    font-family: 'Meiryo UI' sans-serif;
 }
 .wait img{
     margin-left: 60px;
