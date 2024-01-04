@@ -30,7 +30,7 @@ function header(){
   html += '</div>';
   html += '</div>';
   html += '<div class="header_smart">';
-  html += '<a href="./index.html"><img class="logo" src="./img/logo.png" style="height:40%; margin-top:4px;"></a>';
+  html += '<a href="./index.html"><img class="logo" src="./img/logo.png" style="height:30%; margin-top:4px;"></a>';
   html += '<div class="links_smart">';
   html += '<a href="./about.html">About Me</a>';
   html += '<a href="./news.html">News</a>';
