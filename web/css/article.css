@@ -1,0 +1,102 @@
+/* IE?知らないねそんな子。 */
+body {
+    background-color: #e5ebee;
+}
+img {
+    border: 0px;
+}
+.content-wrapper {
+    width: 800px;
+    max-width:100%;
+    margin: 0 auto;
+    border: solid 1px;
+    margin-bottom: 80px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.content,.news {
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-bottom: 2px dashed #000;
+    font-family: Meiryo, sans-serif;
+}
+
+.news img{
+    width: 100%;
+    height: 100%;
+}
+.news2{
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    margin: 20px;
+    font-family: Meiryo, sans-serif;
+}
+
+.newslist {
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-bottom: 2px solid #000;
+    font-family: Meiryo, sans-serif;
+    overflow: auto;
+    height: 150px; /*一覧の幅調整。overflowで縦スクできるように。*/
+}
+.newslist li {
+    padding-bottom: 5px;
+}
+
+.content p,table,a{
+    font-family: Meiryo;
+}
+
+h3 {
+    padding: 0.5em;
+    color: #333;
+    background: #F9F9F9;
+    border-left: solid 5px #ccc;
+  }
+
+.kurobox {
+    padding: 0 4px;
+    border: solid 3px #333;
+  }
+  
+h4 {
+    padding: 5px;
+    border: 3px solid #000;
+    font-size: 20px;
+    margin:0;
+}
+span.yellowmarker {
+    background: linear-gradient(transparent 60%,#ffff00 0);
+    font-weight: bold;
+}
+
+span.angry {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.bar-ma {
+    border-bottom: dashed #000;
+}
+
+@media screen and (max-width: 700px) {
+    .content-wrapper{
+        border-left: none;
+        border-right: none;
+        margin-top: 0;
+    }
+
+    .newslist{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .content-wrapper {
+        margin-top: 100px;
+    }
+}

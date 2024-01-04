@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+html body{
+    overflow: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    background-color: #e5ebee;
+}
+.main {
+    position: relative;
+    display: block;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.message-text {
+    position: absolute;
+    left: 40px;
+    top: 350px;
+    font-size: 60px;
+    width: 700px;
+    color: #ffffff;
+    padding-bottom: 2px;
+    background-color: rgba(0,0,0,0.6)
+}
+.message-text p{
+    margin-left: 40px;
+}
+
+.message-aboutsite {
+    position: fixed;
+    right:40px;
+    top:20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+video{
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.mainanime{
+    position: relative;
+    display: block;
+    padding-bottom: 800px;
+}
+
+.contentsection{
+    position: relative;
+    display: block;
+    margin: 0 7%;
+    font-size: 20px;
+    margin-bottom: 40%;
+}
+
+.explain {
+    float: left;
+    width: 49%;
+    height: 120px;
+    margin-right: 1%;
+    color: #fff;
+}
+.explain p,.explain span{
+    margin: 10px;
+    margin-top: 20p;
+}
+
+/* ここからレスポンシブ */
+@media screen and (max-width: 1000px) {
+    .explain {
+        float: left;
+        width: 100%;
+        margin: 2% 0;
+        height: 120px;
+        color: #fff;
+    }
+
+    .explain:last-child{
+        margin-bottom: 210px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .message-aboutsite {
+        position: absolute;
+        right:60px;
+        top:640px;
+        font-size: 25px;
+        display: none;
+    }
+
+    .message-text {
+        position: absolute;
+        left: 40px;
+        top: 340px;
+        width: 80%;
+        font-size: 35px;
+        color: #ffffff;
+        padding-bottom: 2px;
+        background-color: rgba(0,0,0,0.6)
+    }
+
+    .explain {
+        height: 170px;
+    }
+}
