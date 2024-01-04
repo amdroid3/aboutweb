@@ -1,2 +1,5 @@
 # WebAbout_test
-### Responsive_check
+このリポジトリは、元々仕事用で作成していたWebページをスマートフォンで閲覧するとどのようなデザインになるのか確認するために作成したものです。
+商業利用でもブログ更新用でもないのでご注意を。
+
+[ページはこちらから](https://amdroid3.github.io/aboutweb/webpage/)
