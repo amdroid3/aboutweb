@@ -97,7 +97,7 @@ video{
     .message-text {
         position: absolute;
         left: 20px;
-        top: 340px;
+        top: 290px;
         width: 80%;
         font-size: 35px;
         color: #ffffff;
@@ -107,7 +107,7 @@ video{
 
     .message-text p{
         margin-left: 11px!important;
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .explain {
