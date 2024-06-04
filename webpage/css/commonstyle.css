@@ -57,6 +57,7 @@ header{
     width: 990px;
     height: auto;
     margin: auto;
+    max-width: 100%;
 }
 
 
@@ -125,6 +126,7 @@ header{
     display:block;
     text-decoration: none;
     font-family: 'Gill Sans', sans-serif;
+    overflow-y: scroll;
 }
 .links a:hover {
     color: #ffffff;
