@@ -109,7 +109,11 @@ header{
 .headnews2 p{
     color: #fff;
     margin: 2px;
-    font-size: 19px;
+    font-size: 17px;
+    font-family: 'Meiryo UI', sans-serif;
+    padding-left: 14px;
+    font-weight: 600;
+    line-height: 35px;
 }
 
 .logo img{
@@ -236,5 +240,13 @@ header{
     }
     .footer-right {
         display: none;
+    }
+
+    .links2{
+        text-align: center;
+    }
+
+    .links2 a{
+        font-size: 18px;
     }
 }
