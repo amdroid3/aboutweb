@@ -21,7 +21,7 @@ function header(){
   html += '<div class="header" id="slide">';
   html += '<div class="logo"><a href="./index.html"><img src="./img/logo.png"></a></div>';
   html += '<div class="links">';
-  html += '<a href="./about.html">About Me</a>';
+  html += '<a href="./designtest.html">About Me</a>';
   html += '<a href="./news.html">News</a>';
   html += '<a href="./special.html">My Works</a>';
   html += '</div>';
